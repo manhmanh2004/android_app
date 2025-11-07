@@ -1,0 +1,49 @@
+/* ========= ĐỊNH DẠNG CHUNG ========= */
+
+/* Toàn bộ form điều chỉnh tổng thể */
+.form-control {
+    border-radius: 8px;
+    height: 44px;
+    font-size: 14px;
+}
+
+button.btn-primary {
+    background-color: #1877f2;
+    border: none;
+    height: 44px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+button.btn-primary:hover {
+    background-color: #145ecc;
+}
+
+/* Liên kết nhỏ */
+a.text-primary {
+    text-decoration: none;
+}
+
+a.text-primary:hover {
+    text-decoration: underline;
+}
+
+/* ========= TRANG LOGIN ========= */
+
+/* Nền tổng */
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8e8fc;
+}
+
+/* Card login */
+.login-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    width: 360px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
